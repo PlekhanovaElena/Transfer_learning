@@ -3,7 +3,8 @@
 The realisation of Tranffer learning algorythm, described in "Prediction of deleterious mutations in coding regions of mammals with Transfer learning" (Elena Plekhanova, Sergey V. Nuzhdin, Lev V. Utkin and Maria G. Samsonova) paper.
 
 ### Requirements:
-Python 3→→
+Python 3
+
 Python 3 libraries: numpy, sklearn, scipy, pandas, matplotlib, math
 
 ### Description:
