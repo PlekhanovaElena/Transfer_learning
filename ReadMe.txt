@@ -6,9 +6,12 @@ Description:
 Realisation of sample reweighting transfer learning algorythm. The program contains three main steps:
 
 1) Initialisation. We first define variable data (sourse data) as "Div" for HumDiv data or "Var" for HumVar data. After loading necessary libraries, we define the following functions:
-read () - to read and imput the data
-cv_wo_protein_intersection () - to define specific folds for cross validation, that don't have the same protein in two folds.
-roc_plot - to plot the roc curves of different classifiers on source data on the same plot.
+
+read() - to read and imput the data
+
+cv_wo_protein_intersection() - to define specific folds for cross validation, that don't have the same protein in two folds.
+
+roc_plot() - to plot the roc curves of different classifiers on source data on the same plot.
 Then we read the data and initialize the classifiers, according to their optimal parameters on human data.
 
 2) Transfer. We define the weights of the samples from source data according to their distances to target data. We then train each classifier on source data with the weights and without the weights, test on target dataset and print the results.
