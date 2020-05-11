@@ -3,7 +3,7 @@
 The realisation of Tranffer learning algorythm, described in "Prediction of deleterious mutations in coding regions of mammals with Transfer learning" (Elena Plekhanova, Sergey V. Nuzhdin, Lev V. Utkin and Maria G. Samsonova) paper.
 
 ### Update:
-There is an error in implementation of Transductive Transfer Learning algorythm (the formula of weights doesn't correspond to the formula in the text of article). The corrected version of algorithm is uploaded, see Transfer_learning_correction.ipynb.
+There is a correction in implementation of Transductive Transfer Learning algorythm (in the formula of weights). The corrected version of algorithm is uploaded, see Transfer_learning_correction.ipynb.
 
 ### Requirements:
 Python 3
